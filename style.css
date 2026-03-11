@@ -27,6 +27,10 @@ body {
   flex-direction: column;
 }
 
+main {
+  flex: 1;
+}
+
 /* ── HEADER ── */
 header {
   background-color: var(--dark);
