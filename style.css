@@ -20,11 +20,17 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: var(--bg);
+  background-color: var(--dark);
   color: var(--text);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+}
+
+main {
+  flex: 1;
+  background-color: var(--bg);
 }
 
 /* ── HEADER ── */
@@ -112,7 +118,6 @@ nav a.active::after {
   padding: 40px 30px 80px;
   display: flex;
   justify-content: center;
-  flex: 1;
 }
 
 .card {
@@ -164,7 +169,6 @@ footer {
   text-transform: uppercase;
   font-weight: 600;
   width: 100%;
-  margin-top: auto;
 }
 
 /* ── BUTTON ── */
