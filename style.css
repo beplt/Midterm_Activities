@@ -151,11 +151,15 @@ nav a.active::after {
 
 /* ── FOOTER ── */
 footer {
+  background-color: var(--dark);
+  border-top: 3px solid var(--gold);
   text-align: center;
-  padding: 20px;
+  padding: 20px 40px;
   font-size: 0.78rem;
-  color: var(--orange-dark);
-  letter-spacing: 0.04em;
+  color: var(--white);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 /* ── BUTTON ── */
