@@ -113,7 +113,7 @@ nav a.active::after {
 
 /* ── LAYOUT ── */
 .wrapper {
-  padding: 40px 30px 60px;
+  padding: 40px 30px 80px;
   display: flex;
   justify-content: center;
 }
@@ -166,8 +166,10 @@ footer {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 600;
-  position: sticky;
+  position: fixed;
   bottom: 0;
+  left: 0;
+  width: 100%;
   z-index: 100;
 }
 
